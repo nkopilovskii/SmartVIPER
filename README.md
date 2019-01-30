@@ -1,6 +1,6 @@
 
-![](https://github.com/nkopilovskii/SmartViper/SmartVIPER_
-logo.png)
+![](https://github.com/nkopilovskii/SmartVIPER/blob/master/SmartVIPER_logo.png?raw=true)
+
 
 # NKSmartViper Code Generator
 The presented template and script are designed to generate a module on the viper architecture using the auxiliary service of localization of string data.
@@ -8,7 +8,7 @@ The presented template and script are designed to generate a module on the viper
 ## VIPER architecture
 Module architecture is one of the variations of Clean Architecture with elements of the Service Oriented Architecture.
 
-![](https://github.com/nkopilovskii/SmartViper/blockscheme.png)
+![](https://github.com/nkopilovskii/SmartVIPER/blob/master/blockscheme.png?raw=true)
 
 `Configurator`  is an abstract factory (creates objects of module levels and establishes dependencies between them) and the entry point to the module.
 
