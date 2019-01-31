@@ -5,7 +5,7 @@ directory=$1
 moduleName=$0
 
 echo "🐍 NKSmartVIPER"
-echo "© Created by Nick Kopilovskii https://github.com/nkopilovskii"
+echo "© Created by Nick Kopilovskii https://github.com/nkopilovskii/SmartVIPER"
 echo
 
 readonly DATE=`date +%d.%m.%Y`

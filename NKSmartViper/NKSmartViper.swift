@@ -1,10 +1,11 @@
 //  🐍 NKSmartViper
+//
 //  Base.swift
 //  
 //
 //  Created by Nick Kopilovskii on 1/28/19.
 //  Copyright © 2019 Nick Kopilovskii. All rights reserved.
-//
+//  https://github.com/nkopilovskii/SmartVIPER
 
 import UIKit
 
