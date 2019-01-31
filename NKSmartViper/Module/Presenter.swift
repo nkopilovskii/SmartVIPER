@@ -24,6 +24,10 @@ class $MODULE_NAMEPresenter: NKSVPresenter<$MODULE_NAMEViewController, $MODULE_N
     self.router = router as? $MODULE_NAMEWireframe
   }
   
+  deinit {
+    debugPrint("[$MODULE_NAME] Presenter has been deinited")
+  }
+  
 }
 
 //MARK: - $MODULE_NAMEPresentation protocol implementation

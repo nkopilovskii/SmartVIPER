@@ -11,7 +11,7 @@ import UIKit
 
 //MARK: - $MODULE_NAMEViewController life cycle
 class $MODULE_NAMEViewController: UIViewController {
-  weak var presenter: $MODULE_NAMEPresentation?
+  var presenter: $MODULE_NAMEPresentation?
   
   override func viewDidLoad() {
     super.viewDidLoad()

@@ -13,7 +13,8 @@ class NKSVLocalizer<C> {
   
   enum LanguageKey: String {
     case Base
-    //TODO: Add supported languages identifiers
+    case en
+    case ru
   }
   
   let language: LanguageKey
@@ -34,4 +35,5 @@ class NKSVLocalizer<C> {
   func localizedString(for key: String) -> String {
     return bundle.localizedString(forKey: key, value: key, table: tableName)
   }
+  
 }

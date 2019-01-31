@@ -1,0 +1,16 @@
+/*
+ 🐍NKSmartViper
+ Generated with NKSmartViperCodeGen
+ 
+ Test.strings
+ 
+ Created by NickKopilovskii
+ Copyright © NickKopilovskii. All rights reserved.
+*/
+"lblTitle" = "Заголовок Модуля";
+"txtContent" = "Данный проект создан для демонстрации предложенной архитектуры модуля, принципов взамиодействия уровней, а также работы с локализированными ресурсами.\n\n\n© Created by Nick Kopilovskii\nhttps://github.com/nkopilovskii/SmartVIPER";
+"btnAlert" = "Показать Предупреждение";
+"lblSwitchLanguage" = "Сменить язык";
+
+"alertTitle" = "Заголовок Предупреждения";
+"alertMessage" = "Сообщение тестового предупреждения.";
