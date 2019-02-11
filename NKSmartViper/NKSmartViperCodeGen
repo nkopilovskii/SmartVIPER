@@ -59,7 +59,7 @@ function askContinue () {
   case "$response" in
     [yY][eE][sS]|[yY])
         cd ..
-        generateTemplatesFiles
+        generateTemplates
         ;;
     *)
     echo "🐍Thank You & Good Luck!"  ;;

@@ -9,7 +9,7 @@
 
 import UIKit
 
-protocol NKSVView: class where Self: UIViewController {
+protocol NKSVView where Self: UIViewController {
   associatedtype PresenterType
   var presenter: PresenterType? { get set }
 }
@@ -40,7 +40,7 @@ class NKSVConfigurator<ViewType: NKSVView, RouterType: NKSVRouter<ViewType>, Pre
   func setup() -> ViewType {
     let storyboardName = String(describing: type(of: self))
     let viewName = String(describing: ViewType.self)
-    let view = UIStoryboard(name: storyboardName, bundle: nil).instantiateViewController(withIdentifier: viewName) as! ViewType
+    var view = UIStoryboard(name: storyboardName, bundle: nil).instantiateViewController(withIdentifier: viewName) as! ViewType
     let router = RouterType(view: view)
     let presenter = PresenterType(view: view, router: router)
     view.presenter = presenter as? ViewType.PresenterType
