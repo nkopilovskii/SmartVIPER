@@ -1,24 +1,27 @@
+//  🐍NKSmartViper
+//  Generated with NKSmartViperCodeGen
+//  https://github.com/nkopilovskii/SmartVIPER
+//  Copyright ©NickKopilovskii. All rights reserved.
 //
-//  MVPTestViewController.swift
-//  Example
+//  $MODULE_NAMEConfigurator.swift
 //
-//  Created by Nick Kopilovskii on 7/10/19.
-//  Copyright © 2019 Nick Kopilovskii. All rights reserved.
+//  Created by $USER
+//  Copyright © $USER. All rights reserved.
 //
 
 import UIKit
 
-//MARK: - MVPTestViewController
-class MVPTestViewController: UIViewController {
-  var presenter: MVPTestPresentation?
+//MARK: - $MODULE_NAMEViewController
+class $MODULE_NAMEViewController: UIViewController {
+  var presenter: $MODULE_NAMEPresentation?
 
   deinit {
-    debugPrint("[MVPTest] ViewController has been deinited")
+    debugPrint("[$MODULE_NAME] ViewController has been deinited")
   }
 }
 
-//MARK: - MVPTestView protocol implementation
-extension MVPTestViewController: MVPTestView {
+//MARK: - $MODULE_NAMEView protocol implementation
+extension $MODULE_NAMEViewController: $MODULE_NAMEView {
   
 }
 
