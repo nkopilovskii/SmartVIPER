@@ -1,3 +1,7 @@
+![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat&color=yellow)](http://mit-license.org)
+[![Platform](http://img.shields.io/badge/platform-ios-lightgrey.svg?style=flat&color=black)](https://developer.apple.com/resources/)
+
 ![](https://github.com/nkopilovskii/SmartVIPER/blob/master/SmartVIPER_logo.png?raw=true)
 
 # NKSmartViper Code Generator
