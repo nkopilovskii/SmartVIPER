@@ -1,15 +1,14 @@
-//  🐍NKSmartViper
-//  Services.swift
+//
+//  NKLocalizer.swift
 //
 //
 //  Created by Nick Kopilovskii on 1/28/19.
 //  Copyright © 2019 Nick Kopilovskii. All rights reserved.
-//  https://github.com/nkopilovskii/SmartVIPER
+//
 
 import Foundation
 
-class NKSVLocalizer<C> {
-  typealias ConfiguratorType = C
+class NKLocalizer<Type> {
   
   enum LanguageKey: String {
     case Base

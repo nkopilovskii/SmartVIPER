@@ -18,7 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     window = UIWindow(frame: UIScreen.main.bounds)
     
-    let root = Test().setup()
+//    let root = Test().setup()
+//    let root = MVCTest().setup()
+//    let root = MVPTest().setup()
+    let root = ViperTest().setup()
+    
     
     window?.rootViewController = root
     window?.makeKeyAndVisible()

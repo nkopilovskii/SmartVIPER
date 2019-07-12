@@ -10,17 +10,26 @@
 		1BC2F3BB2202F67B00BF6165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2F3BA2202F67B00BF6165 /* AppDelegate.swift */; };
 		1BC2F3C22202F67C00BF6165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2F3C12202F67C00BF6165 /* Assets.xcassets */; };
 		1BC2F3C52202F67C00BF6165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2F3C32202F67C00BF6165 /* LaunchScreen.storyboard */; };
-		1BC2F3EC2203061600BF6165 /* Sevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2F3EA2203061600BF6165 /* Sevices.swift */; };
-		1BC2F3ED2203061600BF6165 /* NKSmartViper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2F3EB2203061600BF6165 /* NKSmartViper.swift */; };
-		1BC2F3FB2203066100BF6165 /* TestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2F3F12203066100BF6165 /* TestInteractor.swift */; };
-		1BC2F3FC2203066100BF6165 /* TestContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2F3F22203066100BF6165 /* TestContract.swift */; };
-		1BC2F3FD2203066100BF6165 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2F3F32203066100BF6165 /* TestViewController.swift */; };
-		1BC2F3FE2203066100BF6165 /* TestConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2F3F42203066100BF6165 /* TestConfigurator.swift */; };
-		1BC2F3FF2203066100BF6165 /* TestPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2F3F52203066100BF6165 /* TestPresenter.swift */; };
-		1BC2F4002203066100BF6165 /* TestLocalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2F3F62203066100BF6165 /* TestLocalizer.swift */; };
-		1BC2F4012203066100BF6165 /* TestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2F3F72203066100BF6165 /* TestRouter.swift */; };
-		1BC2F4022203066100BF6165 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2F3F92203066100BF6165 /* Test.storyboard */; };
-		1BC2F404220314F300BF6165 /* Test.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2F406220314F300BF6165 /* Test.strings */; };
+		3902D72022D5CA8B008E634E /* NKConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902D71F22D5CA8B008E634E /* NKConfigurator.swift */; };
+		3902D72322D5CBAA008E634E /* NKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902D72222D5CBAA008E634E /* NKView.swift */; };
+		3902D72522D5CBEB008E634E /* NKPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902D72422D5CBEB008E634E /* NKPresenter.swift */; };
+		3902D72722D5CD66008E634E /* NKInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902D72622D5CD66008E634E /* NKInteractor.swift */; };
+		3902D72922D5CD8D008E634E /* NKRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902D72822D5CD8D008E634E /* NKRouter.swift */; };
+		3902D73122D601FF008E634E /* MVCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902D73022D601FF008E634E /* MVCTest.swift */; };
+		3902D73322D60253008E634E /* MVCTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3902D73222D60253008E634E /* MVCTest.storyboard */; };
+		3902D73622D60A68008E634E /* MVPTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902D73522D60A68008E634E /* MVPTest.swift */; };
+		3902D73822D60A7E008E634E /* MVPTestContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902D73722D60A7E008E634E /* MVPTestContract.swift */; };
+		3902D73A22D60A90008E634E /* MVCTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902D73922D60A90008E634E /* MVCTestViewController.swift */; };
+		3902D73C22D60ACA008E634E /* MVPTestPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902D73B22D60ACA008E634E /* MVPTestPresenter.swift */; };
+		3902D73E22D60ADE008E634E /* MVPTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902D73D22D60ADD008E634E /* MVPTestViewController.swift */; };
+		3902D74022D60AEE008E634E /* MVPTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3902D73F22D60AEE008E634E /* MVPTest.storyboard */; };
+		3902D74722D616FE008E634E /* ViperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902D74622D616FE008E634E /* ViperTest.swift */; };
+		3902D74922D61714008E634E /* ViperTestContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902D74822D61714008E634E /* ViperTestContract.swift */; };
+		3902D74B22D61725008E634E /* ViperTestPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902D74A22D61725008E634E /* ViperTestPresenter.swift */; };
+		3902D74D22D61733008E634E /* ViperTestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902D74C22D61733008E634E /* ViperTestInteractor.swift */; };
+		3902D74F22D61747008E634E /* ViperTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902D74E22D61747008E634E /* ViperTestViewController.swift */; };
+		3902D75122D61753008E634E /* ViperTestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902D75022D61753008E634E /* ViperTestRouter.swift */; };
+		3902D75422D6176B008E634E /* ViperTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3902D75322D6176B008E634E /* ViperTest.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,18 +39,26 @@
 		1BC2F3C42202F67C00BF6165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BC2F3C62202F67C00BF6165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BC2F3E42202FA3600BF6165 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		1BC2F3EA2203061600BF6165 /* Sevices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sevices.swift; sourceTree = "<group>"; };
-		1BC2F3EB2203061600BF6165 /* NKSmartViper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKSmartViper.swift; sourceTree = "<group>"; };
-		1BC2F3F12203066100BF6165 /* TestInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestInteractor.swift; sourceTree = "<group>"; };
-		1BC2F3F22203066100BF6165 /* TestContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestContract.swift; sourceTree = "<group>"; };
-		1BC2F3F32203066100BF6165 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		1BC2F3F42203066100BF6165 /* TestConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestConfigurator.swift; sourceTree = "<group>"; };
-		1BC2F3F52203066100BF6165 /* TestPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPresenter.swift; sourceTree = "<group>"; };
-		1BC2F3F62203066100BF6165 /* TestLocalizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestLocalizer.swift; sourceTree = "<group>"; };
-		1BC2F3F72203066100BF6165 /* TestRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRouter.swift; sourceTree = "<group>"; };
-		1BC2F3F92203066100BF6165 /* Test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
-		1BC2F405220314F300BF6165 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Test.strings; sourceTree = "<group>"; };
-		1BC2F407220314F400BF6165 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Test.strings; sourceTree = "<group>"; };
+		3902D71F22D5CA8B008E634E /* NKConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKConfigurator.swift; sourceTree = "<group>"; };
+		3902D72222D5CBAA008E634E /* NKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKView.swift; sourceTree = "<group>"; };
+		3902D72422D5CBEB008E634E /* NKPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKPresenter.swift; sourceTree = "<group>"; };
+		3902D72622D5CD66008E634E /* NKInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKInteractor.swift; sourceTree = "<group>"; };
+		3902D72822D5CD8D008E634E /* NKRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKRouter.swift; sourceTree = "<group>"; };
+		3902D73022D601FF008E634E /* MVCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCTest.swift; sourceTree = "<group>"; };
+		3902D73222D60253008E634E /* MVCTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MVCTest.storyboard; sourceTree = "<group>"; };
+		3902D73522D60A68008E634E /* MVPTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPTest.swift; sourceTree = "<group>"; };
+		3902D73722D60A7E008E634E /* MVPTestContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPTestContract.swift; sourceTree = "<group>"; };
+		3902D73922D60A90008E634E /* MVCTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCTestViewController.swift; sourceTree = "<group>"; };
+		3902D73B22D60ACA008E634E /* MVPTestPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPTestPresenter.swift; sourceTree = "<group>"; };
+		3902D73D22D60ADD008E634E /* MVPTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPTestViewController.swift; sourceTree = "<group>"; };
+		3902D73F22D60AEE008E634E /* MVPTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MVPTest.storyboard; sourceTree = "<group>"; };
+		3902D74622D616FE008E634E /* ViperTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperTest.swift; sourceTree = "<group>"; };
+		3902D74822D61714008E634E /* ViperTestContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperTestContract.swift; sourceTree = "<group>"; };
+		3902D74A22D61725008E634E /* ViperTestPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperTestPresenter.swift; sourceTree = "<group>"; };
+		3902D74C22D61733008E634E /* ViperTestInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperTestInteractor.swift; sourceTree = "<group>"; };
+		3902D74E22D61747008E634E /* ViperTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperTestViewController.swift; sourceTree = "<group>"; };
+		3902D75022D61753008E634E /* ViperTestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperTestRouter.swift; sourceTree = "<group>"; };
+		3902D75322D6176B008E634E /* ViperTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViperTest.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +92,10 @@
 			isa = PBXGroup;
 			children = (
 				1BC2F3BA2202F67B00BF6165 /* AppDelegate.swift */,
-				1BC2F3EB2203061600BF6165 /* NKSmartViper.swift */,
-				1BC2F3EA2203061600BF6165 /* Sevices.swift */,
-				1BC2F3F02203066100BF6165 /* Test */,
+				3902D72122D5CA98008E634E /* NKSmartViper */,
+				3902D72B22D5FCBF008E634E /* MVCTest */,
+				3902D73422D60A46008E634E /* MVPTest */,
+				3902D74122D6152B008E634E /* ViperTest */,
 				1BC2F3C12202F67C00BF6165 /* Assets.xcassets */,
 				1BC2F3C32202F67C00BF6165 /* LaunchScreen.storyboard */,
 				1BC2F3C62202F67C00BF6165 /* Info.plist */,
@@ -85,26 +103,74 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
-		1BC2F3F02203066100BF6165 /* Test */ = {
+		3902D72122D5CA98008E634E /* NKSmartViper */ = {
 			isa = PBXGroup;
 			children = (
-				1BC2F3F42203066100BF6165 /* TestConfigurator.swift */,
-				1BC2F3F22203066100BF6165 /* TestContract.swift */,
-				1BC2F3F52203066100BF6165 /* TestPresenter.swift */,
-				1BC2F3F12203066100BF6165 /* TestInteractor.swift */,
-				1BC2F3F32203066100BF6165 /* TestViewController.swift */,
-				1BC2F3F72203066100BF6165 /* TestRouter.swift */,
-				1BC2F3F62203066100BF6165 /* TestLocalizer.swift */,
-				1BC2F3F82203066100BF6165 /* SupportFiles */,
+				3902D71F22D5CA8B008E634E /* NKConfigurator.swift */,
+				3902D72222D5CBAA008E634E /* NKView.swift */,
+				3902D72422D5CBEB008E634E /* NKPresenter.swift */,
+				3902D72622D5CD66008E634E /* NKInteractor.swift */,
+				3902D72822D5CD8D008E634E /* NKRouter.swift */,
 			);
-			path = Test;
+			path = NKSmartViper;
 			sourceTree = "<group>";
 		};
-		1BC2F3F82203066100BF6165 /* SupportFiles */ = {
+		3902D72B22D5FCBF008E634E /* MVCTest */ = {
 			isa = PBXGroup;
 			children = (
-				1BC2F3F92203066100BF6165 /* Test.storyboard */,
-				1BC2F406220314F300BF6165 /* Test.strings */,
+				3902D73022D601FF008E634E /* MVCTest.swift */,
+				3902D73922D60A90008E634E /* MVCTestViewController.swift */,
+				3902D74522D6169A008E634E /* SupportFiles */,
+			);
+			path = MVCTest;
+			sourceTree = "<group>";
+		};
+		3902D73422D60A46008E634E /* MVPTest */ = {
+			isa = PBXGroup;
+			children = (
+				3902D73522D60A68008E634E /* MVPTest.swift */,
+				3902D73722D60A7E008E634E /* MVPTestContract.swift */,
+				3902D73B22D60ACA008E634E /* MVPTestPresenter.swift */,
+				3902D73D22D60ADD008E634E /* MVPTestViewController.swift */,
+				3902D74222D6155E008E634E /* SupportFiles */,
+			);
+			path = MVPTest;
+			sourceTree = "<group>";
+		};
+		3902D74122D6152B008E634E /* ViperTest */ = {
+			isa = PBXGroup;
+			children = (
+				3902D74622D616FE008E634E /* ViperTest.swift */,
+				3902D74822D61714008E634E /* ViperTestContract.swift */,
+				3902D74A22D61725008E634E /* ViperTestPresenter.swift */,
+				3902D74C22D61733008E634E /* ViperTestInteractor.swift */,
+				3902D74E22D61747008E634E /* ViperTestViewController.swift */,
+				3902D75022D61753008E634E /* ViperTestRouter.swift */,
+				3902D75222D61758008E634E /* SupportFiles */,
+			);
+			path = ViperTest;
+			sourceTree = "<group>";
+		};
+		3902D74222D6155E008E634E /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3902D73F22D60AEE008E634E /* MVPTest.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		3902D74522D6169A008E634E /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3902D73222D60253008E634E /* MVCTest.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		3902D75222D61758008E634E /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3902D75322D6176B008E634E /* ViperTest.storyboard */,
 			);
 			path = SupportFiles;
 			sourceTree = "<group>";
@@ -168,9 +234,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC2F404220314F300BF6165 /* Test.strings in Resources */,
-				1BC2F4022203066100BF6165 /* Test.storyboard in Resources */,
+				3902D74022D60AEE008E634E /* MVPTest.storyboard in Resources */,
 				1BC2F3C52202F67C00BF6165 /* LaunchScreen.storyboard in Resources */,
+				3902D73322D60253008E634E /* MVCTest.storyboard in Resources */,
+				3902D75422D6176B008E634E /* ViperTest.storyboard in Resources */,
 				1BC2F3C22202F67C00BF6165 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,16 +249,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC2F3ED2203061600BF6165 /* NKSmartViper.swift in Sources */,
-				1BC2F3FC2203066100BF6165 /* TestContract.swift in Sources */,
-				1BC2F3FE2203066100BF6165 /* TestConfigurator.swift in Sources */,
-				1BC2F3EC2203061600BF6165 /* Sevices.swift in Sources */,
-				1BC2F3FB2203066100BF6165 /* TestInteractor.swift in Sources */,
-				1BC2F3FD2203066100BF6165 /* TestViewController.swift in Sources */,
-				1BC2F4012203066100BF6165 /* TestRouter.swift in Sources */,
-				1BC2F3FF2203066100BF6165 /* TestPresenter.swift in Sources */,
-				1BC2F4002203066100BF6165 /* TestLocalizer.swift in Sources */,
+				3902D72022D5CA8B008E634E /* NKConfigurator.swift in Sources */,
+				3902D72722D5CD66008E634E /* NKInteractor.swift in Sources */,
+				3902D72522D5CBEB008E634E /* NKPresenter.swift in Sources */,
+				3902D72322D5CBAA008E634E /* NKView.swift in Sources */,
+				3902D74722D616FE008E634E /* ViperTest.swift in Sources */,
+				3902D75122D61753008E634E /* ViperTestRouter.swift in Sources */,
+				3902D73122D601FF008E634E /* MVCTest.swift in Sources */,
+				3902D73822D60A7E008E634E /* MVPTestContract.swift in Sources */,
+				3902D73A22D60A90008E634E /* MVCTestViewController.swift in Sources */,
+				3902D74D22D61733008E634E /* ViperTestInteractor.swift in Sources */,
+				3902D74922D61714008E634E /* ViperTestContract.swift in Sources */,
+				3902D74B22D61725008E634E /* ViperTestPresenter.swift in Sources */,
+				3902D73622D60A68008E634E /* MVPTest.swift in Sources */,
+				3902D73C22D60ACA008E634E /* MVPTestPresenter.swift in Sources */,
 				1BC2F3BB2202F67B00BF6165 /* AppDelegate.swift in Sources */,
+				3902D72922D5CD8D008E634E /* NKRouter.swift in Sources */,
+				3902D73E22D60ADE008E634E /* MVPTestViewController.swift in Sources */,
+				3902D74F22D61747008E634E /* ViperTestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,15 +280,6 @@
 				1BC2F3E42202FA3600BF6165 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		1BC2F406220314F300BF6165 /* Test.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BC2F405220314F300BF6165 /* en */,
-				1BC2F407220314F400BF6165 /* ru */,
-			);
-			name = Test.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
