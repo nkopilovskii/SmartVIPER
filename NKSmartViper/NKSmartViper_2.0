@@ -1,0 +1,125 @@
+#!/bin/bash
+clear
+
+directory=$1
+moduleName=$0
+architecture=$0
+
+
+
+readonly DATE=`date +%d.%m.%Y`
+
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/Templates"
+readonly SUPPORT_FILES_DIR="SupportFiles"
+
+function header() {
+  echo "------------------------------------------------------------------------"
+  echo "🐍 NKSmartVIPER 2.0"
+  echo "© Created by Nick Kopilovskii https://github.com/nkopilovskii/SmartVIPER"
+  echo "------------------------------------------------------------------------"
+  echo
+}
+
+function generateTemplates () {
+  echo
+  echo "Please enter module name ~>"
+  read moduleName
+  echo "------------------------------------------------------------------------"
+
+  cd $(cd $directory; pwd) && mkdir $moduleName && cd $moduleName
+  cp -R $SCRIPT_DIR/$architecture/*.swift $PWD
+
+  for i in *.swift ; do
+    mv $i `echo "$i"|awk -F'.' '{print "'$moduleName'"$1"."$2}'`
+    sed -i '' 's/$MODULE_NAME/'$moduleName'/g' *.swift
+    sed -i '' 's/$CREATE_DATE/'$DATE'/g' *.swift
+    sed -i '' 's/$USER/'$USER'/g' *.swift
+  done
+
+  mkdir "SupportFiles" && cd "SupportFiles"
+  cp -R $SCRIPT_DIR/$architecture/$SUPPORT_FILES_DIR/*.* $PWD
+
+  for i in *.* ; do
+    mv $i `echo "$i"|awk -F'.' '{print "'$moduleName'."$2}'`
+    sed -i '' 's/$MODULE_NAME/'$moduleName'/g' *.*
+    sed -i '' 's/$CREATE_DATE/'$DATE'/g' *.*
+    sed -i '' 's/$USER/'$USER'/g' *.*
+  done
+
+  echo
+  echo "------------------------------------------------------------------------"
+  echo "~Templates created~"
+  echo "------------------------------------------------------------------------"
+  echo
+
+  askContinue
+}
+
+function selectArchitecture() {
+  echo "Please select module architecture (just enter number):"
+  echo "    1. MVC"
+  echo "    2. MVP"
+  echo "    3. VIPER"
+  read number
+  echo "------------------------------------------------------------------------"
+
+
+  case "$number" in
+    [1])
+      architecture="MVC"
+      generateTemplates
+      ;;
+    [2])
+      architecture="MVP"
+      generateTemplates
+      ;;
+    [3])
+      architecture="VIPER"
+      generateTemplates
+      ;;
+    *)
+      echo "Invalid input!"
+      echo
+      echo
+      selectArchitecture
+      ;;
+  esac
+
+}
+
+function enterDirectory () {
+  echo "Please enter directory path ~> "
+  read directory
+
+  if [[ -d $directory ]]; then
+  echo "------------------------------------------------------------------------"
+  echo
+  selectArchitecture
+  else
+    echo "~Invalid directory!~"
+    enterDirectory
+  fi
+}
+
+
+
+function askContinue () {
+  read -r -p "Do you want continue? [Yes/No] " response
+  case "$response" in
+    [yY][eE][sS]|[yY])
+        cd ..
+        reset
+        header
+        enterDirectory
+        ;;
+    *)
+    echo
+    echo
+    echo "🐍Thank You & Good Luck!"  ;;
+esac
+}
+
+header
+enterDirectory
+
+exit 0

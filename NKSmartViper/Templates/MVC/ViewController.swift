@@ -1,4 +1,4 @@
-//  🐍NKSmartViper
+//  🐍NKSmartViper 2.0
 //  Generated with NKSmartViperCodeGen
 //  https://github.com/nkopilovskii/SmartVIPER
 //  Copyright ©NickKopilovskii. All rights reserved.
@@ -9,7 +9,13 @@
 //  Copyright © $USER. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-//MARK: - $MODULE_NAME configurator
-class $MODULE_NAME: NKViperConfigurator<$MODULE_NAMEViewController, $MODULE_NAMERouter, $MODULE_NAMEPresenter> { }
+//MARK: - $MODULE_NAMEViewController
+class $MODULE_NAMEViewController: UIViewController, NKView {
+  
+  deinit {
+    debugPrint("[$MODULE_NAME] ViewController has been deinited")
+  }
+  
+}

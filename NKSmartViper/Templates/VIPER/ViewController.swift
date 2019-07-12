@@ -1,4 +1,4 @@
-//  🐍NKSmartViper
+//  🐍NKSmartViper 2.0
 //  Generated with NKSmartViperCodeGen
 //  https://github.com/nkopilovskii/SmartVIPER
 //  Copyright ©NickKopilovskii. All rights reserved.
