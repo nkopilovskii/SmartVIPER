@@ -86,6 +86,9 @@ Dowload folder with example project to get acquainted with the principles of mod
 - Developed a general mechanism for modules' configuring 
 - `Localizer` removed and presented to  [individual module](https://github.com/nkopilovskii/NKLocalizerTemplate)
 
+### v.2.1
+- Fixed issue
+
 ##
 
 ## Author
