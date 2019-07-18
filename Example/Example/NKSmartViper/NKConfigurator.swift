@@ -39,7 +39,7 @@ class NKMVPConfigurator<ViewType: NKMVPView, PresenterType: NKPresenter<ViewType
   
   ///Configurate module with existing view
   override func configurate(_ view: ViewType) {
-    let presenter = NKPresenter<ViewType>(view)
+    let presenter = PresenterType(view)
     view.presenter = presenter as? ViewType.PresenterType
   }
 }
