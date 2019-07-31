@@ -3,7 +3,7 @@
 //  https://github.com/nkopilovskii/SmartVIPER
 //  Copyright ©NickKopilovskii. All rights reserved.
 //
-//  $MODULE_NAMEConfigurator.swift
+//  $MODULE_NAMEPresenter.swift
 //
 //  Created by $USER
 //  Copyright © $USER. All rights reserved.
