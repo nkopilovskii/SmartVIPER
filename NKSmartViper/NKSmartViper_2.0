@@ -14,7 +14,7 @@ readonly SUPPORT_FILES_DIR="SupportFiles"
 
 function header() {
   echo "------------------------------------------------------------------------"
-  echo "🐍 NKSmartVIPER 2.0"
+  echo "🐍 NKSmartVIPER 2.1.1"
   echo "© Created by Nick Kopilovskii https://github.com/nkopilovskii/SmartVIPER"
   echo "------------------------------------------------------------------------"
   echo
